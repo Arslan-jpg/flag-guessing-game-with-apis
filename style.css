@@ -1,0 +1,165 @@
+body {
+    background-color: #1a1a1a;
+    font-family: 'Nova Square', cursive;
+    text-align: center;
+}
+
+/* Home page CSS */
+
+h1{
+    color: snow;
+    font-size: 50px;
+    margin-top: 350px;
+}
+
+#start {
+    font-family: 'Nova Square', cursive;
+    padding: 9px 65px;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #ffd700;
+    border: 2px solid #ffd700;
+    outline: none;
+    box-shadow: 0 0 8px #fff099;
+    transition: all 0.2s;
+    margin-bottom: 10px;
+}
+
+#start:active {
+    box-shadow: none;
+    transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    -webkit-transform: translateY(1px);
+}
+
+/* Game CSS */
+
+#container-top {
+    width: 60%;
+    max-width: 430px;
+    height: 280px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #ffffff outset 8px;
+    border-radius: 15px;
+    background-color: #56cfe1;
+}
+
+h3 {
+    color: white;
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 1000;
+}
+
+a {
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+a:hover {
+    background-color: #ffd700;
+}
+
+hr {
+    border: springgreen outset 8px;
+}
+
+#flag {
+    margin-top: 25px;
+}
+
+#options {
+    width: 80%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.option {
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'Nova Square', cursive;
+    text-align: left;
+    display: block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.option:hover {
+    background-color: yellow;
+}
+
+@font-face{
+    font-family:'digital';
+    src: url('digital-7.ttf');
+}
+
+#timer {
+    padding: 4px;
+    font-size: 50px;
+    font-family: "digital";
+    margin-top: 20px;
+    color: white;
+    background-color: blue;
+}
+
+#seconds {
+  margin-left: 45px;
+}
+
+
+form > p {
+    color: white;
+    font-size: 20px;
+    float:left;
+}
+
+.home {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.optionTxt{
+  margin:0;
+}
+
+#replay {
+  background-color: black;
+  border-radius: 50%;
+  max-width: 70px;
+  max-height: 70px;
+  padding: 8px;
+  border: lightgreen solid 2px;
+}
+
+#replay:active {
+  transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+  zoom: 0.9;
+}
+
+#imgRep {
+  max-width: 100%;
+}
+
+#score {
+    font-family: "Nova Square", cursive;
+    font-size: 26px;
+    font-weight: 1000;
+}
